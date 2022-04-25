@@ -54,7 +54,7 @@ lbl.place(x=50, y=90)
 name_entry = StringVar()
 def displayname():
     name = name_entry.get()
-    textfield2.insert(END, str(name))
+    textfield2.insert(END, name)
 
 textfield = Entry(window, bd=3, font=("Arial", 16), textvariable=name_entry)
 textfield.place(x=350, y=90)
