@@ -56,11 +56,11 @@ def displayname():
     name = name_entry.get()
     textfield2.insert(END, str(name))
 
-textfield = Entry(window, bd=2, font=("Arial", 16), textvariable=name_entry)
+textfield = Entry(window, bd=3, font=("Arial", 16), textvariable=name_entry)
 textfield.place(x=350, y=90)
 btn = Button(window, text="Click to display your Fullname", fg="red", command=displayname)
 btn.place(x=50, y=130)
-textfield2 = Entry(window, bd=2, font=("Arial", 16))
+textfield2 = Entry(window, bd=3, font=("Arial", 16))
 textfield2.place(x=350, y=130)
 
 window.mainloop()
